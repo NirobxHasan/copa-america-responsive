@@ -5,22 +5,22 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
-/* Heading Section */
+/* ---------Heading Section-------- */
 
 .header-banner{
     background-color: #2D25A0;
+    width: 100%;
     height: 677px;
     position: relative;
     top: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     transition:background-color 2s ease-in-out;
-    
 }
+
 .header-banner:hover{
     background-color: #3dbafd;
 }
@@ -32,6 +32,7 @@ body{
     align-items: center;
     margin-left: 156px;
 }
+
 .heading-element a{
     font-size: 16px;
     color: white;
@@ -40,7 +41,7 @@ body{
     width: 168px;
     height: 44;
     padding: 10px 24px;
-    
+  
 }
 
 
@@ -53,14 +54,12 @@ body{
 }
 .header-banner:hover .heading-title{
     color: #0e2251;
-    
 }
 
 .header-image{
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 
 .header-image img{
@@ -73,7 +72,7 @@ body{
 }
 
 
-/* players section */
+/*---------- players section --------*/
 
 .players{
     margin: 70px 183px;
@@ -86,7 +85,6 @@ body{
     width: 330px;
     height: 474px;
     margin-bottom: 19px;
-
 }
 .plyer-info{
     padding: 15px;
@@ -116,7 +114,7 @@ body{
 }
 
 
-/* Matche Results Section */
+/*-------- Matche Results Section --------*/
 .result-section{
     margin: 70px 120px;
 }
@@ -141,7 +139,7 @@ body{
     height: 100px;
 }
 
-/* Highlight Section */
+/* -----------Highlight Section -----------*/
 .highlight-section{
 
     margin: 70px 120px;
@@ -166,8 +164,6 @@ body{
     box-shadow: 5px 5px 40px gray;
     
 }
-
-
 .highlight h2{
     font-size: 20px;
     color: rgb(88, 88, 88);
