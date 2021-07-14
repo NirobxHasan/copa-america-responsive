@@ -4,4 +4,126 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.header-banner{
+    background-color: #2D25A0;
+    height: 677px;
+    position: relative;
+    top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 156px;
+}
+.heading-element a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44;
+    padding: 10px 24px;
+}
+
+
+.heading-title{
+    color: #FFFFFF;
+    font-size: 64px; 
+    font-weight: bold;   
+}
+
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.header-image img{
+    width: 556px;
+    height: 438px;
+    
+}
+
+
+/* players section */
+
+.players{
+    margin: 70px 183px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:27px ;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+   
+    
+}
+.plyer-info{
+    padding: 15px;
+}
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 700;
+    margin-top: 16px ;
+    margin-bottom: 10px;
+}
+.player-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 0px;
+
+}
+.player img{
+    width: 300px;
+    height: 256PX;
+}   
+
+
+/* Footer section */
+footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.social-link, .logo, .copyright{
+    display: flex;
+    justify-content: center;
+}
+.social-link{
+    margin-top: 20px;
+    margin-bottom: ;
+}
+.social-link a{
+    color: #969BAB;
+    
+
+}
+.social-link a i{
+    padding: 16px;
+    background-color: rgba(194, 194, 194, 0.479);
+    margin-right: 14px;
+    border-radius: 50%;
+}
+.logo img{
+    width: 466px;
+    height: 110px;    
+}
+.copyright{
+    margin-top: 2px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: #000000;
 }
