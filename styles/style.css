@@ -9,6 +9,7 @@ body{
     
 }
 
+/* Heading Section */
 
 .header-banner{
     background-color: #2D25A0;
@@ -17,7 +18,14 @@ body{
     top: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    transition:background-color 2s ease-in-out;
+    
 }
+.header-banner:hover{
+    background-color: #3dbafd;
+}
+
+
 .heading{
     display: flex;
     justify-content: center;
@@ -32,13 +40,20 @@ body{
     width: 168px;
     height: 44;
     padding: 10px 24px;
+    
 }
+
 
 
 .heading-title{
     color: #FFFFFF;
     font-size: 64px; 
-    font-weight: bold;   
+    font-weight: bold;
+    transition: color 2s ease-in-out;   
+}
+.header-banner:hover .heading-title{
+    color: #0e2251;
+    
 }
 
 .header-image{
@@ -50,8 +65,11 @@ body{
 
 .header-image img{
     width: 556px;
-    height: 438px;
-    
+    height: 438px; 
+    transition: transform 2s;
+}
+.header-banner:hover .header-image img{
+    transform: scale(1.2) ;
 }
 
 
@@ -89,7 +107,49 @@ body{
 .player img{
     width: 300px;
     height: 256PX;
+    
+    
 }   
+.plyer-info:hover .player img{ 
+    transform: scale(1.5);
+    
+}
+
+/* Highlight Section */
+.highlight-section{
+
+    margin: 70px 120px;
+}
+.section-title{
+    font-size: 45px;
+    color: #2D25A0;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:20px ;  
+}
+.highlight{
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 1s ease-in;
+}
+.highlight:hover{
+    box-shadow: 5px 5px 40px gray;
+    
+}
+
+
+.highlight h2{
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    
+}
+.video iframe{
+    width: 100%;
+}
 
 
 /* Footer section */
@@ -121,6 +181,7 @@ footer{
     width: 466px;
     height: 110px;    
 }
+
 .copyright{
     margin-top: 2px;
     margin-bottom: 45px;
